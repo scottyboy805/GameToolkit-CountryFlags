@@ -1,0 +1,1311 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad67cadb882b4074596233e8264d6c04, type: 3}
+  m_Name: CountryFlags
+  m_EditorClassIdentifier: 
+  jsonMetadata: {fileID: 4900000, guid: cc66aaa8fdd7ecc48ae51d57cdf335d6, type: 3}
+  flagSprites:
+  - {fileID: 6356632054987546715, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7858788262442410435, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 2474233907157199686, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7531011346372572665, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 6089401747053245849, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4699548671627458655, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -8207172110540127640, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -6158020157603826145, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7449558140616503163, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 5389815266756453789, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 3454863560612208700, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -24397455177556957, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 4724920185416182895, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4497219208250069360, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7874707236043112937, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 6655825503154312046, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7361853458126592370, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 6588899061115312804, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -2147595794686029052, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -8922442547081164103, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4554576408038222455, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 7393042475777428482, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7695515697378399550, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -2306491969170580888, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 3668135891607549795, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 5646984602394355136, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4494078210489239333, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 7189010284262455103, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -8894397048519604518, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -6585895705352524278, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 6794855349798224907, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -1799087927949898733, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -8492789877152748203, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 8276501077333401812, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 425606431316738847, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 5621905316733604243, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 7071672765296450264, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 3367720033600228390, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -2233333942572294674, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -5184793389213302692, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 1636079794593939922, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7479983828299528232, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 559088288415761826, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7487165496205910302, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -3480478372722538965, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -5618761564791455647, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 6104087930742028725, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -6821093901367492821, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 3153881314392798685, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -2665286579642972615, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -727846183151749518, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -6571908729268657802, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 7175957134582688912, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 8335147727796939151, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -8399020594867033187, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 3622289874165160362, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 3286179214787729817, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 1352526863484018281, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4696893002166865358, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -3206118392768851034, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -629485058511496246, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -3048551959350673923, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 8357996522693430431, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -1870024723983952434, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -6661450709394003097, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4907148248008091393, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 1007894812358526312, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 2284731157062752534, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 3306531055802815767, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 6290517582177538555, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 5725020968631458962, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 5778258912381255963, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -3392628488881072221, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4258597129608949622, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7657838793123029674, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 2960921422365609374, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 4395664190756336213, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 903428787970029288, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7540365037588778164, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 951233850440590702, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7054498650482024839, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7094566500230484297, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -1283374946098724772, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 2794547928414477897, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 1536952737010030337, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 5994055610866607253, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -8991321237086217962, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -8018320793860325891, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 6345597040063808660, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 1026274781738490830, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 7458544527197114810, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 2854392228659844010, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -6524737406145210, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 4351722402589856263, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -1372446843309774241, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -3272286036665356133, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -2580390944919225545, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -3042859220761561053, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 2854505038415263272, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 4808644443703976487, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 5214054775286355005, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -3068563208043653552, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 3979199285454671038, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 7699340753581843754, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -6439159026324817837, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -904950972945668072, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 1683128038081544101, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 8931894742421214734, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 5116182585655139767, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 7972562378988126641, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -2379542584429925463, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -6284508043650309279, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -5130433989601384037, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -3118924531549736830, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 287686136719816707, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4526935280695963536, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -3821098470418769631, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -5893887318276377426, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -1501321298591228378, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 6251655784579162358, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 1436842198725784764, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -8949533729573484440, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 6213601407776085875, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 3732516844647484650, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -1766807829827970464, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -2816970214424306187, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 9017000586889282976, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 4710876844846310006, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 8551417749915903446, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -2327955022703910136, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4331227199381380247, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -2528713832242906397, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4464431248894701948, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 6434316787383479085, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -535777021516171925, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 4445513616149559558, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -3067393555933801388, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -6268710097470057004, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -2053724123621231323, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -1166291539968145288, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -1187001727926803680, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -5655242744784376698, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 953045886538078931, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -6001786998712357237, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 2847488668898487911, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -2737974229387144310, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 2690013434575447570, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 1362643337472160344, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 8928982971589527064, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -8930934491322275607, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 7542482095141117632, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -5158112469021017117, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -3356735377224421075, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 4143844819570156518, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -8310135373356293450, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4475382615697342282, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7011101373377587395, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4616007240679823388, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 6635826961996715094, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -8800608005871635261, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -6814321342002168164, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7410651121220459872, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 6253878467296114865, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7797846947419882535, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 3248359719059151511, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 3389398166354040436, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -420872453330597125, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4776570208958832730, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -3717830715916965749, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -5347623295709392418, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 8889802930535634048, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 4160469952258585876, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -1333237779371382671, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 8654217605289005571, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 4840878876754627768, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 1285503893091017823, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4267275093293880764, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 3118610276312862067, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 6659075626908168359, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 3915593801626819324, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7675115471679925332, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 2453829309933102789, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 7476403110089659141, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -3798911812555464643, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 1553216759792377603, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 2960273573532229404, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7640224701666806220, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -1092887540824571319, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 7671546328183069363, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 2690018136517090645, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -827441866914950659, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -8035796650765791521, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 3796476069043022621, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 205035338488465804, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -1197663113547569429, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7224791119820674881, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 350472165980307426, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 5611536163056772860, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -2350728089824701236, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -1448894656803781635, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -472442118551706083, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 5414697707119201394, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 6318992507046242651, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 7479115998982445284, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -9148143087085692022, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -1109145561207974100, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -2132999952407664314, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 1860649881596882768, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 1186887643519224040, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -8079514104292462101, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -5169425713837283124, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -2445413847787095179, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 3613058878426405655, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 6619286916466245825, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 6970318335776591198, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -3495181723767851434, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -1262121359576680859, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 3392769846855893027, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 340508785853338266, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -1125687268519298939, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -3604188419753687858, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -5148112051236688590, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -7333062931745338957, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 8016706351447252497, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 5743685814352564923, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4027599739124515227, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -5257572352797467623, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 1053889958033242037, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 1890709385275919991, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 2464217487108122708, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -5996399982506028314, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 2651390011373598925, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -2498044008622317380, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 8366325579799335135, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -3566272910714709828, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 7599550514973482601, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 23542107742127543, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 4507903612103800900, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 4354495946154690720, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 2757812006901849721, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -8189204973708304449, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -3762918532623463065, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 2760756046909021530, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -5969104854061874198, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -2830223504974967661, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 3947324313097650261, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 5432955860947882944, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -1030788287323318848, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 1660336120217090769, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4087672581915678009, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 2384445544086905271, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -2958444172861432161, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 1547753252300858546, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: 6876174470340841223, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4484922353790467610, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  - {fileID: -4954900371070901389, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+  metadata:
+    Items:
+    - code: ad
+      name: 
+      nameRU: 
+      flag: {fileID: 6356632054987546715, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ae
+      name: United Arab Emirates
+      nameRU: "\u041E\u0431\u044A\u0435\u0434\u0438\u043D\u0435\u043D\u043D\u044B\u0435
+        \u0410\u0440\u0430\u0431\u0441\u043A\u0438\u0435 \u042D\u043C\u0438\u0440\u0430\u0442\u044B"
+      flag: {fileID: -7858788262442410435, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: af
+      name: Afghanistan
+      nameRU: "\u0410\u0444\u0433\u0430\u043D\u0438\u0441\u0442\u0430\u043D"
+      flag: {fileID: 2474233907157199686, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ag
+      name: Antigua and Barbuda
+      nameRU: "\u0410\u043D\u0442\u0438\u0433\u0443\u0430 \u0438 \u0411\u0430\u0440\u0431\u0443\u0434\u0430"
+      flag: {fileID: -7531011346372572665, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ai
+      name: 
+      nameRU: 
+      flag: {fileID: 6089401747053245849, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: al
+      name: Albania
+      nameRU: "\u0410\u043B\u0431\u0430\u043D\u0438\u044F"
+      flag: {fileID: -4699548671627458655, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: am
+      name: Armenia
+      nameRU: "\u0410\u0440\u043C\u0435\u043D\u0438\u044F"
+      flag: {fileID: -8207172110540127640, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ao
+      name: Angola
+      nameRU: "\u0410\u043D\u0433\u043E\u043B\u0430"
+      flag: {fileID: -6158020157603826145, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: aq
+      name: 
+      nameRU: 
+      flag: {fileID: -7449558140616503163, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ar
+      name: Argentina
+      nameRU: "\u0410\u0440\u0433\u0435\u043D\u0442\u0438\u043D\u0430"
+      flag: {fileID: 5389815266756453789, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: as
+      name: 
+      nameRU: 
+      flag: {fileID: 3454863560612208700, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: at
+      name: Austria
+      nameRU: "\u0410\u0432\u0441\u0442\u0440\u0438\u044F"
+      flag: {fileID: -24397455177556957, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: au
+      name: Australia
+      nameRU: "\u0410\u0432\u0441\u0442\u0440\u0430\u043B\u0438\u044F"
+      flag: {fileID: 4724920185416182895, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: aw
+      name: 
+      nameRU: 
+      flag: {fileID: -4497219208250069360, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ax
+      name: 
+      nameRU: 
+      flag: {fileID: -7874707236043112937, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: az
+      name: Azerbaijan
+      nameRU: "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043D"
+      flag: {fileID: 6655825503154312046, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ba
+      name: Bosnia and Herzegovina
+      nameRU: "\u0411\u043E\u0441\u043D\u0438\u044F \u0438 \u0413\u0435\u0440\u0446\u0435\u0433\u043E\u0432\u0438\u043D\u0430"
+      flag: {fileID: -7361853458126592370, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: bb
+      name: Barbados
+      nameRU: "\u0411\u0430\u0440\u0431\u0430\u0434\u043E\u0441"
+      flag: {fileID: 6588899061115312804, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: bd
+      name: Bangladesh
+      nameRU: "\u0411\u0430\u043D\u0433\u043B\u0430\u0434\u0435\u0448"
+      flag: {fileID: -2147595794686029052, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: be
+      name: Belgium
+      nameRU: "\u0411\u0435\u043B\u044C\u0433\u0438\u044F"
+      flag: {fileID: -8922442547081164103, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: bf
+      name: Burkina Faso
+      nameRU: "\u0411\u0443\u0440\u043A\u0438\u043D\u0430-\u0424\u0430\u0441\u043E"
+      flag: {fileID: -4554576408038222455, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: bg
+      name: Bulgaria
+      nameRU: "\u0411\u043E\u043B\u0433\u0430\u0440\u0438\u044F"
+      flag: {fileID: 7393042475777428482, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: bh
+      name: Bahrain
+      nameRU: "\u0411\u0430\u0445\u0440\u0435\u0439\u043D"
+      flag: {fileID: -7695515697378399550, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: bi
+      name: Burundi
+      nameRU: "\u0411\u0443\u0440\u0443\u043D\u0434\u0438"
+      flag: {fileID: -2306491969170580888, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: bj
+      name: Benin
+      nameRU: "\u0411\u0435\u043D\u0438\u043D"
+      flag: {fileID: 3668135891607549795, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: bl
+      name: 
+      nameRU: 
+      flag: {fileID: 5646984602394355136, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: bm
+      name: 
+      nameRU: 
+      flag: {fileID: -4494078210489239333, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: bn
+      name: Brunei Darussalam
+      nameRU: "\u0411\u0440\u0443\u043D\u0435\u0439-\u0414\u0430\u0440\u0443\u0441\u0441\u0430\u043B\u0430\u043C"
+      flag: {fileID: 7189010284262455103, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: bo
+      name: Bolivia
+      nameRU: "\u0411\u043E\u043B\u0438\u0432\u0438\u044F"
+      flag: {fileID: -8894397048519604518, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: bq
+      name: 
+      nameRU: 
+      flag: {fileID: -6585895705352524278, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: br
+      name: Brazil
+      nameRU: "\u0411\u0440\u0430\u0437\u0438\u043B\u0438\u044F"
+      flag: {fileID: 6794855349798224907, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: bs
+      name: Bahamas
+      nameRU: "\u0411\u0430\u0433\u0430\u043C\u0441\u043A\u0438\u0435 \u043E-\u0432\u0430"
+      flag: {fileID: -1799087927949898733, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: bt
+      name: Bhutan
+      nameRU: "\u0411\u0443\u0442\u0430\u043D"
+      flag: {fileID: -8492789877152748203, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: bv
+      name: 
+      nameRU: 
+      flag: {fileID: 8276501077333401812, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: bw
+      name: Botswana
+      nameRU: "\u0411\u043E\u0442\u0441\u0432\u0430\u043D\u0430"
+      flag: {fileID: 425606431316738847, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: by
+      name: Belarus
+      nameRU: "\u0411\u0435\u043B\u0430\u0440\u0443\u0441\u044C"
+      flag: {fileID: 5621905316733604243, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: bz
+      name: Belize
+      nameRU: "\u0411\u0435\u043B\u0438\u0437"
+      flag: {fileID: 7071672765296450264, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ca
+      name: Canada
+      nameRU: "\u041A\u0430\u043D\u0430\u0434\u0430"
+      flag: {fileID: 3367720033600228390, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: cc
+      name: 
+      nameRU: 
+      flag: {fileID: -2233333942572294674, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: cd
+      name: Democratic Republic of the Congo
+      nameRU: "\u0414\u0435\u043C\u043E\u043A\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F
+        \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u041A\u043E\u043D\u0433\u043E"
+      flag: {fileID: -5184793389213302692, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: cf
+      name: Central African Republic
+      nameRU: "\u0426\u0435\u043D\u0442\u0440\u0430\u043B\u044C\u043D\u043E-\u0410\u0444\u0440\u0438\u043A\u0430\u043D\u0441\u043A\u0430\u044F
+        \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430"
+      flag: {fileID: 1636079794593939922, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: cg
+      name: Congo
+      nameRU: "\u041A\u043E\u043D\u0433\u043E"
+      flag: {fileID: -7479983828299528232, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ch
+      name: Switzerland
+      nameRU: "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0438\u044F"
+      flag: {fileID: 559088288415761826, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ci
+      name: Cote d'Ivoire
+      nameRU: "\u041A\u043E\u0442-\u0434'\u0418\u0432\u0443\u0430\u0440"
+      flag: {fileID: -7487165496205910302, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ck
+      name: 
+      nameRU: 
+      flag: {fileID: -3480478372722538965, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: cl
+      name: Chile
+      nameRU: "\u0427\u0438\u043B\u0438"
+      flag: {fileID: -5618761564791455647, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: cm
+      name: Cameroon
+      nameRU: "\u041A\u0430\u043C\u0435\u0440\u0443\u043D"
+      flag: {fileID: 6104087930742028725, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: cn
+      name: China
+      nameRU: "\u041A\u0438\u0442\u0430\u0439"
+      flag: {fileID: -6821093901367492821, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: co
+      name: Colombia
+      nameRU: "\u041A\u043E\u043B\u0443\u043C\u0431\u0438\u044F"
+      flag: {fileID: 3153881314392798685, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: cr
+      name: Costa Rica
+      nameRU: "\u041A\u043E\u0441\u0442\u0430 \u0420\u0438\u043A\u0430"
+      flag: {fileID: -2665286579642972615, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: cu
+      name: Cuba
+      nameRU: "\u041A\u0443\u0431\u0430"
+      flag: {fileID: -727846183151749518, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: cv
+      name: Cabo Verde
+      nameRU: "\u041A\u0430\u0431\u043E \u0412\u0435\u0440\u0434\u0435"
+      flag: {fileID: -6571908729268657802, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: cw
+      name: 
+      nameRU: 
+      flag: {fileID: 7175957134582688912, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: cx
+      name: 
+      nameRU: 
+      flag: {fileID: 8335147727796939151, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: cy
+      name: Cyprus
+      nameRU: "\u041A\u0438\u043F\u0440"
+      flag: {fileID: -8399020594867033187, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: cz
+      name: Czech Republic
+      nameRU: "\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0427\u0435\u0445\u0438\u044F"
+      flag: {fileID: 3622289874165160362, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: de
+      name: Germany
+      nameRU: "\u0413\u0435\u0440\u043C\u0430\u043D\u0438\u044F"
+      flag: {fileID: 3286179214787729817, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: dj
+      name: Djibouti
+      nameRU: "\u0414\u0436\u0438\u0431\u0443\u0442\u0438"
+      flag: {fileID: 1352526863484018281, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: dk
+      name: Denmark
+      nameRU: "\u0414\u0430\u043D\u0438\u044F"
+      flag: {fileID: -4696893002166865358, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: dm
+      name: 
+      nameRU: 
+      flag: {fileID: -3206118392768851034, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: do
+      name: Dominican Republic
+      nameRU: "\u0414\u043E\u043C\u0438\u043D\u0438\u043A\u0430\u043D\u0441\u043A\u0430\u044F
+        \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430"
+      flag: {fileID: -629485058511496246, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: dz
+      name: Algeria
+      nameRU: "\u0410\u043B\u0436\u0438\u0440"
+      flag: {fileID: -3048551959350673923, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ec
+      name: Ecuador
+      nameRU: "\u042D\u043A\u0432\u0430\u0434\u043E\u0440"
+      flag: {fileID: 8357996522693430431, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ee
+      name: Estonia
+      nameRU: "\u042D\u0441\u0442\u043E\u043D\u0438\u044F"
+      flag: {fileID: -1870024723983952434, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: eg
+      name: Egypt
+      nameRU: "\u0415\u0433\u0438\u043F\u0435\u0442"
+      flag: {fileID: -6661450709394003097, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: eh
+      name: 
+      nameRU: 
+      flag: {fileID: -4907148248008091393, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: er
+      name: Eritrea
+      nameRU: "\u042D\u0440\u0438\u0442\u0440\u0435\u044F"
+      flag: {fileID: 1007894812358526312, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: es
+      name: Spain
+      nameRU: "\u0418\u0441\u043F\u0430\u043D\u0438\u044F"
+      flag: {fileID: 2284731157062752534, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: et
+      name: Ethiopia
+      nameRU: "\u042D\u0444\u0438\u043E\u043F\u0438\u044F"
+      flag: {fileID: 3306531055802815767, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: eu
+      name: 
+      nameRU: 
+      flag: {fileID: 6290517582177538555, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: fi
+      name: Finland
+      nameRU: "\u0424\u0438\u043D\u043B\u044F\u043D\u0434\u0438\u044F"
+      flag: {fileID: 5725020968631458962, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: fj
+      name: Fiji
+      nameRU: "\u0424\u0438\u0434\u0436\u0438"
+      flag: {fileID: 5778258912381255963, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: fk
+      name: 
+      nameRU: 
+      flag: {fileID: -3392628488881072221, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: fm
+      name: Micronesia
+      nameRU: "\u041C\u0438\u043A\u0440\u043E\u043D\u0435\u0437\u0438\u044F"
+      flag: {fileID: -4258597129608949622, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: fo
+      name: 
+      nameRU: 
+      flag: {fileID: -7657838793123029674, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: fr
+      name: France
+      nameRU: "\u0424\u0440\u0430\u043D\u0446\u0438\u044F"
+      flag: {fileID: 2960921422365609374, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ga
+      name: Gabon
+      nameRU: "\u0413\u0430\u0431\u043E\u043D"
+      flag: {fileID: 4395664190756336213, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gb-eng
+      name: 
+      nameRU: 
+      flag: {fileID: 903428787970029288, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gb-nir
+      name: 
+      nameRU: 
+      flag: {fileID: -7540365037588778164, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gb-sct
+      name: 
+      nameRU: 
+      flag: {fileID: 951233850440590702, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gb-wls
+      name: 
+      nameRU: 
+      flag: {fileID: -7054498650482024839, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gb
+      name: United Kingdom
+      nameRU: "\u041E\u0431\u044A\u0435\u0434\u0438\u043D\u0435\u043D\u043D\u043E\u0435
+        \u041A\u043E\u0440\u043E\u043B\u0435\u0432\u0441\u0442\u0432\u043E"
+      flag: {fileID: -7094566500230484297, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gd
+      name: Grenada
+      nameRU: "\u0413\u0440\u0435\u043D\u0430\u0434\u0430"
+      flag: {fileID: -1283374946098724772, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ge
+      name: Georgia
+      nameRU: "\u0413\u0440\u0443\u0437\u0438\u044F"
+      flag: {fileID: 2794547928414477897, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gf
+      name: 
+      nameRU: 
+      flag: {fileID: 1536952737010030337, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gg
+      name: 
+      nameRU: 
+      flag: {fileID: 5994055610866607253, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gh
+      name: Ghana
+      nameRU: "\u0413\u0430\u043D\u0430"
+      flag: {fileID: -8991321237086217962, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gi
+      name: 
+      nameRU: 
+      flag: {fileID: -8018320793860325891, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gl
+      name: 
+      nameRU: 
+      flag: {fileID: 6345597040063808660, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gm
+      name: Gambia
+      nameRU: "\u0413\u0430\u043C\u0431\u0438\u044F"
+      flag: {fileID: 1026274781738490830, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gn
+      name: Guinea
+      nameRU: "\u0413\u0432\u0438\u043D\u0435\u044F"
+      flag: {fileID: 7458544527197114810, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gp
+      name: 
+      nameRU: 
+      flag: {fileID: 2854392228659844010, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gq
+      name: Equatorial Guinea
+      nameRU: "\u042D\u043A\u0432\u0430\u0442\u043E\u0440\u0438\u0430\u043B\u044C\u043D\u0430\u044F
+        \u0413\u0432\u0438\u043D\u0435\u044F"
+      flag: {fileID: -6524737406145210, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gr
+      name: Greece
+      nameRU: "\u0413\u0440\u0435\u0446\u0438\u044F"
+      flag: {fileID: 4351722402589856263, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gs
+      name: 
+      nameRU: 
+      flag: {fileID: -1372446843309774241, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gt
+      name: Guatemala
+      nameRU: "\u0413\u0432\u0430\u0442\u0435\u043C\u0430\u043B\u0430"
+      flag: {fileID: -3272286036665356133, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gu
+      name: 
+      nameRU: 
+      flag: {fileID: -2580390944919225545, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gw
+      name: Guinea-Bissau
+      nameRU: "\u0413\u0432\u0438\u043D\u0435\u044F-\u0411\u0438\u0441\u0430\u0443"
+      flag: {fileID: -3042859220761561053, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: gy
+      name: Guyana
+      nameRU: "\u0413\u0430\u0439\u0430\u043D\u0430"
+      flag: {fileID: 2854505038415263272, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: hk
+      name: 
+      nameRU: 
+      flag: {fileID: 4808644443703976487, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: hm
+      name: 
+      nameRU: 
+      flag: {fileID: 5214054775286355005, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: hn
+      name: Honduras
+      nameRU: "\u0413\u043E\u043D\u0434\u0443\u0440\u0430\u0441"
+      flag: {fileID: -3068563208043653552, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: hr
+      name: Croatia
+      nameRU: "\u0425\u043E\u0440\u0432\u0430\u0442\u0438\u044F"
+      flag: {fileID: 3979199285454671038, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ht
+      name: Haiti
+      nameRU: "\u0413\u0430\u0438\u0442\u0438"
+      flag: {fileID: 7699340753581843754, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: hu
+      name: Hungary
+      nameRU: "\u0412\u0435\u043D\u0433\u0440\u0438\u044F"
+      flag: {fileID: -6439159026324817837, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: id
+      name: Indonesia
+      nameRU: "\u0418\u043D\u0434\u043E\u043D\u0435\u0437\u0438\u044F"
+      flag: {fileID: -904950972945668072, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ie
+      name: Ireland
+      nameRU: "\u0418\u0440\u043B\u0430\u043D\u0434\u0438\u044F"
+      flag: {fileID: 1683128038081544101, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: il
+      name: Israel
+      nameRU: "\u0418\u0437\u0440\u0430\u0438\u043B\u044C"
+      flag: {fileID: 8931894742421214734, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: im
+      name: 
+      nameRU: 
+      flag: {fileID: 5116182585655139767, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: in
+      name: India
+      nameRU: "\u0418\u043D\u0434\u0438\u044F"
+      flag: {fileID: 7972562378988126641, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: io
+      name: 
+      nameRU: 
+      flag: {fileID: -2379542584429925463, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: iq
+      name: Iraq
+      nameRU: "\u0418\u0440\u0430\u043A"
+      flag: {fileID: -6284508043650309279, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ir
+      name: Iran
+      nameRU: "\u0418\u0440\u0430\u043D"
+      flag: {fileID: -5130433989601384037, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: is
+      name: Iceland
+      nameRU: "\u0418\u0441\u043B\u0430\u043D\u0434\u0438\u044F"
+      flag: {fileID: -3118924531549736830, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: it
+      name: Italy
+      nameRU: "\u0418\u0442\u0430\u043B\u0438\u044F"
+      flag: {fileID: 287686136719816707, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: je
+      name: 
+      nameRU: 
+      flag: {fileID: -4526935280695963536, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: jm
+      name: Jamaica
+      nameRU: "\u042F\u043C\u0430\u0439\u043A\u0430"
+      flag: {fileID: -3821098470418769631, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: jo
+      name: Jordan
+      nameRU: "\u0418\u043E\u0440\u0434\u0430\u043D\u0438\u044F"
+      flag: {fileID: -5893887318276377426, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: jp
+      name: Japan
+      nameRU: "\u042F\u043F\u043E\u043D\u0438\u044F"
+      flag: {fileID: -1501321298591228378, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ke
+      name: Kenya
+      nameRU: "\u041A\u0435\u043D\u0438\u044F"
+      flag: {fileID: 6251655784579162358, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: kg
+      name: Kyrgyzstan
+      nameRU: "\u041A\u044B\u0440\u0433\u044B\u0437\u0441\u0442\u0430\u043D"
+      flag: {fileID: 1436842198725784764, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: kh
+      name: Cambodia
+      nameRU: "\u041A\u0430\u043C\u0431\u043E\u0434\u0436\u0430"
+      flag: {fileID: -8949533729573484440, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ki
+      name: Kiribati
+      nameRU: "\u041A\u0438\u0440\u0438\u0431\u0430\u0442\u0438"
+      flag: {fileID: 6213601407776085875, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: km
+      name: Comoros
+      nameRU: "\u041A\u043E\u043C\u043E\u0440\u0441\u043A\u0438\u0435 \u043E\u0441\u0442\u0440\u043E\u0432\u0430"
+      flag: {fileID: 3732516844647484650, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: kn
+      name: 
+      nameRU: 
+      flag: {fileID: -1766807829827970464, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: kp
+      name: Democratic People's Republic of Korea
+      nameRU: "\u041A\u043E\u0440\u0435\u0439\u0441\u043A\u0430\u044F \u041D\u0430\u0440\u043E\u0434\u043D\u043E-\u0414\u0435\u043C\u043E\u043A\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F
+        \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430"
+      flag: {fileID: -2816970214424306187, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: kr
+      name: Republic of Korea
+      nameRU: "\u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u041A\u043E\u0440\u0435\u044F"
+      flag: {fileID: 9017000586889282976, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: kw
+      name: Kuwait
+      nameRU: "\u041A\u0443\u0432\u0435\u0439\u0442"
+      flag: {fileID: 4710876844846310006, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ky
+      name: 
+      nameRU: 
+      flag: {fileID: 8551417749915903446, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: kz
+      name: Kazakhstan
+      nameRU: "\u041A\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043D"
+      flag: {fileID: -2327955022703910136, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: la
+      name: Lao People's Democratic Republic
+      nameRU: "\u041B\u0430\u043E\u0441\u0441\u043A\u0430\u044F \u041D\u0430\u0440\u043E\u0434\u043D\u043E-\u0414\u0435\u043C\u043E\u043A\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F
+        \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430"
+      flag: {fileID: -4331227199381380247, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: lb
+      name: Lebanon
+      nameRU: "\u041B\u0438\u0432\u0430\u043D"
+      flag: {fileID: -2528713832242906397, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: lc
+      name: Saint Lucia
+      nameRU: "\u0421\u0435\u043D\u0442-\u041B\u044E\u0441\u0438\u044F"
+      flag: {fileID: -4464431248894701948, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: li
+      name: 
+      nameRU: 
+      flag: {fileID: 6434316787383479085, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: lk
+      name: Sri Lanka
+      nameRU: "\u0428\u0440\u0438-\u041B\u0430\u043D\u043A\u0430"
+      flag: {fileID: -535777021516171925, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: lr
+      name: Liberia
+      nameRU: "\u041B\u0438\u0431\u0435\u0440\u0438\u044F"
+      flag: {fileID: 4445513616149559558, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ls
+      name: Lesotho
+      nameRU: "\u041B\u0435\u0441\u043E\u0442\u043E"
+      flag: {fileID: -3067393555933801388, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: lt
+      name: Lithuania
+      nameRU: "\u041B\u0438\u0442\u0432\u0430"
+      flag: {fileID: -6268710097470057004, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: lu
+      name: Luxembourg
+      nameRU: "\u041B\u044E\u043A\u0441\u0435\u043C\u0431\u0443\u0440\u0433"
+      flag: {fileID: -2053724123621231323, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: lv
+      name: Latvia
+      nameRU: "\u041B\u0430\u0442\u0432\u0438\u044F"
+      flag: {fileID: -1166291539968145288, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ly
+      name: Libya
+      nameRU: "\u041B\u0438\u0432\u0438\u044F"
+      flag: {fileID: -1187001727926803680, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ma
+      name: Morocco
+      nameRU: "\u041C\u0430\u0440\u043E\u043A\u043A\u043E"
+      flag: {fileID: -5655242744784376698, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: mc
+      name: 
+      nameRU: 
+      flag: {fileID: 953045886538078931, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: md
+      name: Republic of Moldova
+      nameRU: "\u041C\u043E\u043B\u0434\u043E\u0432\u0430"
+      flag: {fileID: -6001786998712357237, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: me
+      name: Montenegro
+      nameRU: "\u0427\u0435\u0440\u043D\u043E\u0433\u043E\u0440\u0438\u044F"
+      flag: {fileID: 2847488668898487911, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: mf
+      name: 
+      nameRU: 
+      flag: {fileID: -2737974229387144310, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: mg
+      name: Madagascar
+      nameRU: "\u041C\u0430\u0434\u0430\u0433\u0430\u0441\u043A\u0430\u0440"
+      flag: {fileID: 2690013434575447570, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: mh
+      name: 
+      nameRU: 
+      flag: {fileID: 1362643337472160344, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: mk
+      name: Macedonia
+      nameRU: "\u041C\u0430\u043A\u0435\u0434\u043E\u043D\u0438\u044F"
+      flag: {fileID: 8928982971589527064, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ml
+      name: Mali
+      nameRU: "\u041C\u0430\u043B\u0438"
+      flag: {fileID: -8930934491322275607, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: mm
+      name: Myanmar
+      nameRU: "\u041C\u044C\u044F\u043D\u043C\u0430"
+      flag: {fileID: 7542482095141117632, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: mn
+      name: Mongolia
+      nameRU: "\u041C\u043E\u043D\u0433\u043E\u043B\u0438\u044F"
+      flag: {fileID: -5158112469021017117, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: mo
+      name: 
+      nameRU: 
+      flag: {fileID: -3356735377224421075, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: mp
+      name: 
+      nameRU: 
+      flag: {fileID: 4143844819570156518, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: mq
+      name: 
+      nameRU: 
+      flag: {fileID: -8310135373356293450, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: mr
+      name: Mauritania
+      nameRU: "\u041C\u0430\u0432\u0440\u0438\u0442\u0430\u043D\u0438\u044F"
+      flag: {fileID: -4475382615697342282, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ms
+      name: 
+      nameRU: 
+      flag: {fileID: -7011101373377587395, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: mt
+      name: Malta
+      nameRU: "\u041C\u0430\u043B\u044C\u0442\u0430"
+      flag: {fileID: -4616007240679823388, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: mu
+      name: Mauritius
+      nameRU: "\u041C\u0430\u0432\u0440\u0438\u043A\u0438\u0439"
+      flag: {fileID: 6635826961996715094, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: mv
+      name: Maldives
+      nameRU: "\u041C\u0430\u043B\u044C\u0434\u0438\u0432\u044B"
+      flag: {fileID: -8800608005871635261, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: mw
+      name: Malawi
+      nameRU: "\u041C\u0430\u043B\u0430\u0432\u0438"
+      flag: {fileID: -6814321342002168164, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: mx
+      name: Mexico
+      nameRU: "\u041C\u0435\u043A\u0441\u0438\u043A\u0430"
+      flag: {fileID: -7410651121220459872, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: my
+      name: Malaysia
+      nameRU: "\u041C\u0430\u043B\u0430\u0439\u0437\u0438\u044F"
+      flag: {fileID: 6253878467296114865, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: mz
+      name: Mozambique
+      nameRU: "\u041C\u043E\u0437\u0430\u043C\u0431\u0438\u043A"
+      flag: {fileID: -7797846947419882535, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: na
+      name: Namibia
+      nameRU: "\u041D\u0430\u043C\u0438\u0431\u0438\u044F"
+      flag: {fileID: 3248359719059151511, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: nc
+      name: 
+      nameRU: 
+      flag: {fileID: 3389398166354040436, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ne
+      name: Niger
+      nameRU: "\u041D\u0438\u0433\u0435\u0440"
+      flag: {fileID: -420872453330597125, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: nf
+      name: 
+      nameRU: 
+      flag: {fileID: -4776570208958832730, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ng
+      name: Nigeria
+      nameRU: "\u041D\u0438\u0433\u0435\u0440\u0438\u044F"
+      flag: {fileID: -3717830715916965749, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ni
+      name: Nicaragua
+      nameRU: "\u041D\u0438\u043A\u0430\u0440\u0430\u0433\u0443\u0430"
+      flag: {fileID: -5347623295709392418, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: nl
+      name: Netherlands
+      nameRU: "\u041D\u0438\u0434\u0435\u0440\u043B\u0430\u043D\u0434\u044B"
+      flag: {fileID: 8889802930535634048, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: no
+      name: Norway
+      nameRU: "\u041D\u043E\u0440\u0432\u0435\u0433\u0438\u044F"
+      flag: {fileID: 4160469952258585876, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: np
+      name: Nepal
+      nameRU: "\u041D\u0435\u043F\u0430\u043B"
+      flag: {fileID: -1333237779371382671, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: nr
+      name: 
+      nameRU: 
+      flag: {fileID: 8654217605289005571, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: nu
+      name: 
+      nameRU: 
+      flag: {fileID: 4840878876754627768, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: nz
+      name: New Zealand
+      nameRU: "\u041D\u043E\u0432\u0430\u044F \u0417\u0435\u043B\u0430\u043D\u0434\u0438\u044F"
+      flag: {fileID: 1285503893091017823, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: om
+      name: Oman
+      nameRU: "\u041E\u043C\u0430\u043D"
+      flag: {fileID: -4267275093293880764, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: pa
+      name: Panama
+      nameRU: "\u041F\u0430\u043D\u0430\u043C\u0430"
+      flag: {fileID: 3118610276312862067, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: pe
+      name: Peru
+      nameRU: "\u041F\u0435\u0440\u0443"
+      flag: {fileID: 6659075626908168359, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: pf
+      name: 
+      nameRU: 
+      flag: {fileID: 3915593801626819324, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: pg
+      name: Papua New Guinea
+      nameRU: "\u041F\u0430\u043F\u0443\u0430 - \u041D\u043E\u0432\u0430\u044F \u0413\u0432\u0438\u043D\u0435\u044F"
+      flag: {fileID: -7675115471679925332, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ph
+      name: Philippines
+      nameRU: "\u0424\u0438\u043B\u0438\u043F\u043F\u0438\u043D\u044B"
+      flag: {fileID: 2453829309933102789, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: pk
+      name: Pakistan
+      nameRU: "\u041F\u0430\u043A\u0438\u0441\u0442\u0430\u043D"
+      flag: {fileID: 7476403110089659141, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: pl
+      name: Poland
+      nameRU: "\u041F\u043E\u043B\u044C\u0448\u0430"
+      flag: {fileID: -3798911812555464643, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: pm
+      name: 
+      nameRU: 
+      flag: {fileID: 1553216759792377603, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: pn
+      name: 
+      nameRU: 
+      flag: {fileID: 2960273573532229404, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: pr
+      name: 
+      nameRU: 
+      flag: {fileID: -7640224701666806220, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ps
+      name: 
+      nameRU: 
+      flag: {fileID: -1092887540824571319, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: pt
+      name: Portugal
+      nameRU: "\u041F\u043E\u0440\u0442\u0443\u0433\u0430\u043B\u0438\u044F"
+      flag: {fileID: 7671546328183069363, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: pw
+      name: 
+      nameRU: 
+      flag: {fileID: 2690018136517090645, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: py
+      name: Paraguay
+      nameRU: "\u041F\u0430\u0440\u0430\u0433\u0432\u0430\u0439"
+      flag: {fileID: -827441866914950659, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: qa
+      name: Qatar
+      nameRU: "\u041A\u0430\u0442\u0430\u0440"
+      flag: {fileID: -8035796650765791521, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: re
+      name: 
+      nameRU: 
+      flag: {fileID: 3796476069043022621, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ro
+      name: Romania
+      nameRU: "\u0420\u0443\u043C\u044B\u043D\u0438\u044F"
+      flag: {fileID: 205035338488465804, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: rs
+      name: Serbia
+      nameRU: "\u0421\u0435\u0440\u0431\u0438\u044F"
+      flag: {fileID: -1197663113547569429, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ru
+      name: Russian Federation
+      nameRU: "\u0420\u043E\u0441\u0441\u0438\u0439\u0441\u043A\u0430\u044F \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044F"
+      flag: {fileID: -7224791119820674881, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: rw
+      name: Rwanda
+      nameRU: "\u0420\u0443\u0430\u043D\u0434\u0430"
+      flag: {fileID: 350472165980307426, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: sa
+      name: Saudi Arabia
+      nameRU: "\u0421\u0430\u0443\u0434\u043E\u0432\u0441\u043A\u0430\u044F \u0410\u0440\u0430\u0432\u0438\u044F"
+      flag: {fileID: 5611536163056772860, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: sb
+      name: Solomon Islands
+      nameRU: "\u0421\u043E\u043B\u043E\u043C\u043E\u043D\u043E\u0432\u044B \u043E\u0441\u0442\u0440\u043E\u0432\u0430"
+      flag: {fileID: -2350728089824701236, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: sc
+      name: Seychelles
+      nameRU: "\u0421\u0435\u0439\u0448\u0435\u043B\u044C\u0441\u043A\u0438\u0435
+        \u043E\u0441\u0442\u0440\u043E\u0432\u0430"
+      flag: {fileID: -1448894656803781635, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: sd
+      name: Sudan
+      nameRU: "\u0421\u0443\u0434\u0430\u043D"
+      flag: {fileID: -472442118551706083, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: se
+      name: Sweden
+      nameRU: "\u0428\u0432\u0435\u0446\u0438\u044F"
+      flag: {fileID: 5414697707119201394, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: sg
+      name: Singapore
+      nameRU: "\u0421\u0438\u043D\u0433\u0430\u043F\u0443\u0440"
+      flag: {fileID: 6318992507046242651, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: sh
+      name: 
+      nameRU: 
+      flag: {fileID: 7479115998982445284, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: si
+      name: Slovenia
+      nameRU: "\u0421\u043B\u043E\u0432\u0435\u043D\u0438\u044F"
+      flag: {fileID: -9148143087085692022, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: sj
+      name: 
+      nameRU: 
+      flag: {fileID: -1109145561207974100, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: sk
+      name: Slovakia
+      nameRU: "\u0421\u043B\u043E\u0432\u0430\u043A\u0438\u044F"
+      flag: {fileID: -2132999952407664314, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: sl
+      name: Sierra Leone
+      nameRU: "\u0421\u044C\u0435\u0440\u0440\u0430-\u041B\u0435\u043E\u043D\u0435"
+      flag: {fileID: 1860649881596882768, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: sm
+      name: 
+      nameRU: 
+      flag: {fileID: 1186887643519224040, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: sn
+      name: Senegal
+      nameRU: "\u0421\u0435\u043D\u0435\u0433\u0430\u043B"
+      flag: {fileID: -8079514104292462101, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: so
+      name: Somalia
+      nameRU: "\u0421\u043E\u043C\u0430\u043B\u0438"
+      flag: {fileID: -5169425713837283124, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: sr
+      name: Suriname
+      nameRU: "\u0421\u0443\u0440\u0438\u043D\u0430\u043C"
+      flag: {fileID: -2445413847787095179, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ss
+      name: South Sudan
+      nameRU: "\u042E\u0436\u043D\u044B\u0439 \u0421\u0443\u0434\u0430\u043D"
+      flag: {fileID: 3613058878426405655, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: st
+      name: Sao Tome and Principe
+      nameRU: "\u0421\u0430\u043D-\u0422\u043E\u043C\u0435 \u0438 \u041F\u0440\u0438\u043D\u0441\u0438\u043F\u0438"
+      flag: {fileID: 6619286916466245825, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: sv
+      name: El Salvador
+      nameRU: "\u0421\u0430\u043B\u044C\u0432\u0430\u0434\u043E\u0440"
+      flag: {fileID: 6970318335776591198, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: sx
+      name: 
+      nameRU: 
+      flag: {fileID: -3495181723767851434, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: sy
+      name: Syrian Arab Republic
+      nameRU: "\u0421\u0438\u0440\u0438\u0439\u0441\u043A\u0430\u044F \u0410\u0440\u0430\u0431\u0441\u043A\u0430\u044F
+        \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430"
+      flag: {fileID: -1262121359576680859, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: sz
+      name: Swaziland
+      nameRU: "\u0421\u0432\u0430\u0437\u0438\u043B\u0435\u043D\u0434"
+      flag: {fileID: 3392769846855893027, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: tc
+      name: 
+      nameRU: 
+      flag: {fileID: 340508785853338266, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: td
+      name: Chad
+      nameRU: "\u0427\u0430\u0434"
+      flag: {fileID: -1125687268519298939, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: tf
+      name: 
+      nameRU: 
+      flag: {fileID: -3604188419753687858, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: tg
+      name: Togo
+      nameRU: "\u0418\u0434\u0442\u0438"
+      flag: {fileID: -5148112051236688590, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: th
+      name: Thailand
+      nameRU: "\u0422\u0430\u0438\u043B\u0430\u043D\u0434"
+      flag: {fileID: -7333062931745338957, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: tj
+      name: Tajikistan
+      nameRU: "\u0422\u0430\u0434\u0436\u0438\u043A\u0438\u0441\u0442\u0430\u043D"
+      flag: {fileID: 8016706351447252497, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: tk
+      name: 
+      nameRU: 
+      flag: {fileID: 5743685814352564923, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: tl
+      name: Timor-Leste
+      nameRU: "\u0412\u043E\u0441\u0442\u043E\u0447\u043D\u044B\u0439 \u0422\u0438\u043C\u043E\u0440"
+      flag: {fileID: -4027599739124515227, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: tm
+      name: Turkmenistan
+      nameRU: "\u0422\u0443\u0440\u043A\u043C\u0435\u043D\u0438\u0441\u0442\u0430\u043D"
+      flag: {fileID: -5257572352797467623, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: tn
+      name: Tunisia
+      nameRU: "\u0422\u0443\u043D\u0438\u0441"
+      flag: {fileID: 1053889958033242037, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: to
+      name: Tonga
+      nameRU: "\u0422\u043E\u043D\u0433\u0430"
+      flag: {fileID: 1890709385275919991, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: tr
+      name: Turkey
+      nameRU: "\u0422\u0443\u0440\u0446\u0438\u044F"
+      flag: {fileID: 2464217487108122708, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: tt
+      name: Trinidad and Tobago
+      nameRU: "\u0422\u0440\u0438\u043D\u0438\u0434\u0430\u0434 \u0438 \u0422\u043E\u0431\u0430\u0433\u043E"
+      flag: {fileID: -5996399982506028314, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: tv
+      name: 
+      nameRU: 
+      flag: {fileID: 2651390011373598925, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: tw
+      name: Taiwan
+      nameRU: "\u0422\u0430\u0439\u0432\u0430\u043D\u044C"
+      flag: {fileID: -2498044008622317380, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: tz
+      name: United Republic of Tanzania
+      nameRU: "\u041E\u0431\u044A\u0435\u0434\u0438\u043D\u0435\u043D\u043D\u0430\u044F
+        \u0420\u0435\u0441\u043F\u0443\u0431\u043B\u0438\u043A\u0430 \u0422\u0430\u043D\u0437\u0430\u043D\u0438\u044F"
+      flag: {fileID: 8366325579799335135, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ua
+      name: Ukraine
+      nameRU: "\u0423\u043A\u0440\u0430\u0438\u043D\u0430"
+      flag: {fileID: -3566272910714709828, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ug
+      name: Uganda
+      nameRU: "\u0423\u0433\u0430\u043D\u0434\u0430"
+      flag: {fileID: 7599550514973482601, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: um
+      name: 
+      nameRU: 
+      flag: {fileID: 23542107742127543, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: un
+      name: 
+      nameRU: 
+      flag: {fileID: 4507903612103800900, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: us
+      name: United States of America
+      nameRU: "\u0421\u043E\u0435\u0434\u0438\u043D\u0435\u043D\u043D\u044B\u0435
+        \u0428\u0442\u0430\u0442\u044B \u0410\u043C\u0435\u0440\u0438\u043A\u0438"
+      flag: {fileID: 4354495946154690720, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: uy
+      name: Uruguay
+      nameRU: "\u0423\u0440\u0443\u0433\u0432\u0430\u0439"
+      flag: {fileID: 2757812006901849721, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: uz
+      name: Uzbekistan
+      nameRU: "\u0423\u0437\u0431\u0435\u043A\u0438\u0441\u0442\u0430\u043D"
+      flag: {fileID: -8189204973708304449, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: va
+      name: 
+      nameRU: 
+      flag: {fileID: -3762918532623463065, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: vc
+      name: Saint Vincent and the Grenadines
+      nameRU: "\u0421\u0432\u044F\u0442\u043E\u0439 \u0412\u0438\u043D\u0441\u0435\u043D\u0442
+        \u0438 \u0413\u0440\u0435\u043D\u0430\u0434\u0438\u043D\u044B"
+      flag: {fileID: 2760756046909021530, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ve
+      name: Venezuela
+      nameRU: "\u0412\u0435\u043D\u0435\u0441\u0443\u044D\u043B\u0430"
+      flag: {fileID: -5969104854061874198, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: vg
+      name: 
+      nameRU: 
+      flag: {fileID: -2830223504974967661, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: vi
+      name: 
+      nameRU: 
+      flag: {fileID: 3947324313097650261, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: vn
+      name: Viet Nam
+      nameRU: "\u0412\u044C\u0435\u0442\u043D\u0430\u043C"
+      flag: {fileID: 5432955860947882944, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: vu
+      name: Vanuatu
+      nameRU: "\u0412\u0430\u043D\u0443\u0430\u0442\u0443"
+      flag: {fileID: -1030788287323318848, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: wf
+      name: 
+      nameRU: 
+      flag: {fileID: 1660336120217090769, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ws
+      name: Samoa
+      nameRU: "\u0421\u0430\u043C\u043E\u0430"
+      flag: {fileID: -4087672581915678009, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: ye
+      name: Yemen
+      nameRU: "\u0419\u0435\u043C\u0435\u043D"
+      flag: {fileID: 2384445544086905271, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: yt
+      name: 
+      nameRU: 
+      flag: {fileID: -2958444172861432161, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: za
+      name: South Africa
+      nameRU: "\u042E\u0436\u043D\u0430\u044F \u0410\u0444\u0440\u0438\u043A\u0430"
+      flag: {fileID: 1547753252300858546, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: zm
+      name: Zambia
+      nameRU: "\u0417\u0430\u043C\u0431\u0438\u044F"
+      flag: {fileID: 6876174470340841223, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: zw
+      name: Zimbabwe
+      nameRU: "\u0417\u0438\u043C\u0431\u0430\u0431\u0432\u0435"
+      flag: {fileID: -4484922353790467610, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}
+    - code: zz
+      name: 
+      nameRU: 
+      flag: {fileID: -4954900371070901389, guid: 4059606d71c2b7043bffbf7da0a79754, type: 3}

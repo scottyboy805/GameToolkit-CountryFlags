@@ -1,0 +1,26 @@
+{
+  "name": "com.gametoolkit.countryflags",
+  "displayName": "GameToolkit Country Flags",
+  "version": "2.2.3",
+  "unity": "2017.3",
+  "license": "MIT",
+  "description": "Easily add flag icons to your game UI or sprites",
+  "keywords": [
+    "country",
+    "flags",
+    "ui"
+  ],
+  "author": {
+    "name": "scott",
+    "email": "scottyboy@hotmail.co.uk",
+    "url": "https://github.com/scottyboy805/GameToolkit-CountryFlags"
+  },
+  "dependencies": {},
+  "samples": [
+    {
+      "displayName": "Basic",
+      "description": "Ready-to-use basic assets and an example scene",
+      "path": "Samples~/Basic"
+    }
+  ]
+}
